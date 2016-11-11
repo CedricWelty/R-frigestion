@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FenetreAjoutRecette</class>
+ <widget class="QDialog" name="FenetreAjoutRecette">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>490</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog
+{
+	background-color: lightgray;
+}
+
+QWidget#scrollAreaWidgetContents_2
+{
+	padding-top : 5px;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="leftMargin">
+      <number>10</number>
+     </property>
+     <property name="topMargin">
+      <number>10</number>
+     </property>
+     <property name="rightMargin">
+      <number>10</number>
+     </property>
+     <property name="bottomMargin">
+      <number>10</number>
+     </property>
+     <property name="spacing">
+      <number>15</number>
+     </property>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label4">
+       <property name="text">
+        <string>Durée de préparation :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QScrollArea" name="scrollIngredients">
+         <property name="styleSheet">
+          <string notr="true">padding : 0px;</string>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="tableIngredients">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>319</width>
+            <height>115</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_4">
+           <item row="0" column="0">
+            <layout class="QGridLayout" name="grilleIngredients">
+             <item row="1" column="1">
+              <widget class="QDoubleSpinBox" name="sb_ing1">
+               <property name="minimum">
+                <double>0.010000000000000</double>
+               </property>
+               <property name="maximum">
+                <double>5000.000000000000000</double>
+               </property>
+               <property name="value">
+                <double>1.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <widget class="QComboBox" name="cb_ing1">
+               <item>
+                <property name="text">
+                 <string/>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>mL</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>cL</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>L</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>g</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>kg</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_7">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>25</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>Ingrédients</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QLabel" name="label_9">
+               <property name="text">
+                <string>Unité</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLabel" name="label_8">
+               <property name="text">
+                <string>Quantité</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLineEdit" name="le_ing1"/>
+             </item>
+             <item row="2" column="2">
+              <widget class="QComboBox" name="cb_ing2">
+               <item>
+                <property name="text">
+                 <string/>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>mL</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>cL</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>L</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>g</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>kg</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLineEdit" name="le_ing2"/>
+             </item>
+             <item row="2" column="1">
+              <widget class="QDoubleSpinBox" name="sb_ing2">
+               <property name="minimum">
+                <double>0.010000000000000</double>
+               </property>
+               <property name="maximum">
+                <double>5000.000000000000000</double>
+               </property>
+               <property name="value">
+                <double>1.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QToolButton" name="tbAjouterIng">
+           <property name="text">
+            <string>Ajouter ingrédient</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label3">
+       <property name="text">
+        <string>Ingrédients :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QPushButton" name="cancelButton">
+         <property name="text">
+          <string>Annuler</string>
+         </property>
+         <property name="autoDefault">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="okButton">
+         <property name="text">
+          <string>Ok</string>
+         </property>
+         <property name="default">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label2">
+       <property name="text">
+        <string>Type de recette :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QComboBox" name="cb_image"/>
+     </item>
+     <item row="6" column="2">
+      <widget class="QTextEdit" name="te_etapes">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>200</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label1">
+       <property name="text">
+        <string>Nom :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="label5">
+       <property name="text">
+        <string>Etapes de préparation :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="le_nom"/>
+     </item>
+     <item row="1" column="2">
+      <widget class="QComboBox" name="cb_type">
+       <item>
+        <property name="text">
+         <string>Autre</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Entrée</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Plat</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dessert</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="label6">
+       <property name="text">
+        <string>Image :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QTimeEdit" name="te_duree">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>(hh:mm)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>le_nom</tabstop>
+  <tabstop>cb_type</tabstop>
+  <tabstop>scrollIngredients</tabstop>
+  <tabstop>le_ing1</tabstop>
+  <tabstop>sb_ing1</tabstop>
+  <tabstop>cb_ing1</tabstop>
+  <tabstop>le_ing2</tabstop>
+  <tabstop>sb_ing2</tabstop>
+  <tabstop>cb_ing2</tabstop>
+  <tabstop>tbAjouterIng</tabstop>
+  <tabstop>te_etapes</tabstop>
+  <tabstop>cb_image</tabstop>
+  <tabstop>cancelButton</tabstop>
+  <tabstop>okButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,9 @@
+QWidget
+{
+    border = 5px solid black;
+}
+
+QPushButton
+{
+ border = 5px solid black;
+}

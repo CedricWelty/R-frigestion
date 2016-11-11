@@ -1,0 +1,78 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Images/autre.png</file>
+        <file>Images/autreLettre.png</file>
+        <file>Images/boisson.png</file>
+        <file>Images/boissonLettre.png</file>
+        <file>Images/boutonMoins.png</file>
+        <file>Images/boutonPlus.png</file>
+        <file>Images/crackedJohnnie.ttf</file>
+        <file>Images/dessert.png</file>
+        <file>Images/dessertLettre.png</file>
+        <file>Images/entree.png</file>
+        <file>Images/entreeLettre.png</file>
+        <file>Images/fromage.png</file>
+        <file>Images/fromageLettre.png</file>
+        <file>Images/fruit.png</file>
+        <file>Images/fruitLettre.png</file>
+        <file>Images/legume.png</file>
+        <file>Images/legumeLettre.png</file>
+        <file>Images/plat.png</file>
+        <file>Images/platLettre.png</file>
+        <file>Images/poisson.png</file>
+        <file>Images/poissonLettre.png</file>
+        <file>Images/viande.png</file>
+        <file>Images/viandeLettre.png</file>
+        <file>Images/ZcPostIt.png</file>
+        <file>Images/boutonMoinsClicked.png</file>
+        <file>Images/boutonMoinsHover.png</file>
+        <file>Images/boutonPlusClicked.png</file>
+        <file>Images/boutonPlusHover.png</file>
+    </qresource>
+    <qresource prefix="/Images/Contenu">
+        <file>Images/Contenu/Aile de poulet.png</file>
+        <file>Images/Contenu/Baguette.png</file>
+        <file>Images/Contenu/Banane.png</file>
+        <file>Images/Contenu/Beurre.png</file>
+        <file>Images/Contenu/Burger.png</file>
+        <file>Images/Contenu/Champigon.png</file>
+        <file>Images/Contenu/Choux fleur.png</file>
+        <file>Images/Contenu/Choux frise.png</file>
+        <file>Images/Contenu/Citron.png</file>
+        <file>Images/Contenu/Comte.png</file>
+        <file>Images/Contenu/Concombre.png</file>
+        <file>Images/Contenu/Donut.png</file>
+        <file>Images/Contenu/Eclair.png</file>
+        <file>Images/Contenu/Emmentale.png</file>
+        <file>Images/Contenu/Filet de poulet.png</file>
+        <file>Images/Contenu/Fraise.png</file>
+        <file>Images/Contenu/Framboise.png</file>
+        <file>Images/Contenu/Fromage de chevre.png</file>
+        <file>Images/Contenu/Gateau au chocolat.png</file>
+        <file>Images/Contenu/Gouda.png</file>
+        <file>Images/Contenu/Haricots.png</file>
+        <file>Images/Contenu/Jambon.png</file>
+        <file>Images/Contenu/Ketchup.png</file>
+        <file>Images/Contenu/Kiwi.png</file>
+        <file>Images/Contenu/Lait.png</file>
+        <file>Images/Contenu/Lardons.png</file>
+        <file>Images/Contenu/Mayonnaise.png</file>
+        <file>Images/Contenu/Moutarde.png</file>
+        <file>Images/Contenu/Oeuf.png</file>
+        <file>Images/Contenu/Oignon.png</file>
+        <file>Images/Contenu/Orange.png</file>
+        <file>Images/Contenu/Pain.png</file>
+        <file>Images/Contenu/Peche.png</file>
+        <file>Images/Contenu/Poire.png</file>
+        <file>Images/Contenu/Poivron.png</file>
+        <file>Images/Contenu/Pomme de terre.png</file>
+        <file>Images/Contenu/Pomme.png</file>
+        <file>Images/Contenu/Poulet entier.png</file>
+        <file>Images/Contenu/Poulet roti.png</file>
+        <file>Images/Contenu/Raisin.png</file>
+        <file>Images/Contenu/Salade verte.png</file>
+        <file>Images/Contenu/Tacos.png</file>
+        <file>Images/Contenu/Tomate.png</file>
+        <file>Images/Contenu/Viande de boeuf.png</file>
+    </qresource>
+</RCC>
